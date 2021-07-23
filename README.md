@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+The project codebase is divided as the following 
+## UI related
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Views
+2. Components
+3. Sub pages
+4. Pages
+5. Flows
 
-## Available Scripts
+Logic related
+1. UI logic 
+2. Busniess Logic 
 
-In the project directory, you can run:
+#### What is a component?
+A component  set of UI design whose job is only limited to UI and doesnt contain any form of busniess logic. 
 
-### `yarn start`
+#### What is view?
+A view is a set of components is only related to a particular function of the view. This may or may not contain busniess logic.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### What is subpage?
+A subpage is a collection of views that is only compriise a part of a page but not the entire page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### what is page?
+A page is single unit of the website that is displayed to the user a one instinct of time
 
-### `yarn test`
+#### What is flow?
+A flow is combination of pages where the direction of displaying is constant irrespective of where the flow is used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### What is UI logic?
+Logic related to the UI where the logic is not dependent on the underlying business logic. Examples inlcude animation, transitions
 
-### `yarn build`
+#### What is Busniess logic?
+Logic related to the particular function of the software. Examples include REST requests, database changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Store related
+Pending
